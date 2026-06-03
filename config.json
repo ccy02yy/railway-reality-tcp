@@ -23,7 +23,8 @@
         "xver": 0,
         "serverNames": ["www.nvidia.com"],
         "privateKey": "MMMxKr9K12jgPYqwZafEFjP/zTcoNgiSrKd6D2mX8ko=",
-        "shortIds": ["866f367f"]
+        "shortIds": ["866f367f"],
+        "fingerprint": "chrome"
       }
     }
   }],
