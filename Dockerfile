@@ -6,5 +6,7 @@ RUN apk add --no-cache ca-certificates wget unzip && \
     rm -rf /var/cache/apk/*
 
 COPY config.json /config.json
+COPY entry.sh /entry.sh
+RUN chmod +x /entry.sh
 
-CMD ["/xray", "-c", "/config.json"]
+CMD ["/entry.sh"]
